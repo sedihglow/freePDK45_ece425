@@ -1,0 +1,117 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 08/16/2019 17:05 (sjfhw025) $
+\o Sub version:		sub-version  s053 
+\o Arguments:		-mpssession virtuoso12100 -mpshost mo.ece.pdx.edu 
+\o Working Directory:	mo.ece.pdx.edu:/u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/cadence525
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o Log file is "/u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/cadence525/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(8 31 602 489))
+\o changeWorkingDir("/u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/cadence525") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "dic2_lab2_16bit_msff_adder"
+\a cdsLibManager->libLineEdit->value = "dic2_lab2_16bit_msff_adder"
+\a cdsLibManager->cellListBox->value = "look_ahead_carry_unit_4bit"
+\a cdsLibManager->cellLineEdit->value = "look_ahead_carry_unit_4bit"
+\a cdsLibManager->cellListBox->value = "adder_4bit"
+\a cdsLibManager->cellLineEdit->value = "adder_4bit"
+\a cdsLibManager->cellListBox->value = "and2"
+\a cdsLibManager->cellLineEdit->value = "and2"
+\a cdsLibManager->cellListBox->value = "d-latch"
+\a cdsLibManager->cellLineEdit->value = "d-latch"
+\a cdsLibManager->cellListBox->value = "msff_1bit"
+\a cdsLibManager->cellLineEdit->value = "msff_1bit"
+\a cdsLibManager->cellListBox->value = "msff_4bit"
+\a cdsLibManager->cellLineEdit->value = "msff_4bit"
+\a cdsLibManager->cellListBox->value = "msff_16bit"
+\a cdsLibManager->cellLineEdit->value = "msff_16bit"
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a cdsLibManager->cellListBox->value = "msff_16bit"
+\a cdsLibManager->cellLineEdit->value = "msff_16bit"
+\a cdsLibManager->cellListBox->value = "adder_4bit"
+\a cdsLibManager->cellLineEdit->value = "adder_4bit"
+\a cdsLibManager->cellListBox->value = "look_ahead_carry_unit_4bit"
+\a cdsLibManager->cellLineEdit->value = "look_ahead_carry_unit_4bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "dic2_lab2_16bit_msff_adder"
+\a cdsLibManager->libLineEdit->value = "dic2_lab2_16bit_msff_adder"
+\a cdsLibManager->cellListBox->value = "look_ahead_carry_unit_4bit"
+\a cdsLibManager->cellLineEdit->value = "look_ahead_carry_unit_4bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "CMOS_Inverter_min"
+\a cdsLibManager->cellLineEdit->value = "CMOS_Inverter_min"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "adder_4bit"
+\a cdsLibManager->cellLineEdit->value = "adder_4bit"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "adder_4bit"
+\a cdsLibManager->cellLineEdit->value = "adder_4bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 3 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "dic2_lab2_16bit_msff_adder"
+\a cdsLibManager->libLineEdit->value = "dic2_lab2_16bit_msff_adder"
+\a cdsLibManager->cellListBox->value = "adder_4bit"
+\a cdsLibManager->cellLineEdit->value = "adder_4bit"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetCurrentWindow(cdsLibManager)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

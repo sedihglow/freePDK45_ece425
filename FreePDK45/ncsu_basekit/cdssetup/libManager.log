@@ -1,0 +1,37 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 08/16/2019 17:05 (sjfhw025) $
+\o Sub version:		sub-version  s053 
+\o Arguments:		-mpssession virtuoso27592 -mpshost mo.ece.pdx.edu 
+\o Working Directory:	mo.ece.pdx.edu:/u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o Log file is "/u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/libManager.log".
+\o Opening libManager window.
+\o changeWorkingDir("/u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(8 34 602 489))
+\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = "analogLib"
+\a cdsLibManager->libListBox->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewLibButton->value = t
+\a nrSetWindowVisibility(NewLibShell "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(46 31 507 559))
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/cadence525"
+\a NewLibShell->newLibCancelButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

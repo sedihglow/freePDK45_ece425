@@ -1,0 +1,14 @@
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths   $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic     $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
+DEFINE NCSU_TechLib_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE NCSU_Devices_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+DEFINE tutorial_cmos_inverter /u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/cadence525/tutorial_cmos_inverter
+#Removed by ddDeleteObj: DEFINE tut_cmos_invert /u/jamr2/ece424/FreePDK45/ncsu_basekit/cdssetup/cadence525/tut_cmos_invert
+#Removed by ddDeleteObj: DEFINE test_lib /u/jamr2/ece424/FreePDK45/ncsu_basekit/cdssetup/cadence525/test_lib
+DEFINE Lab_1 /u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/cadence525/Lab_1
+DEFINE group19_lab1 /u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/cadence525/group19_lab1
+DEFINE group19_lab2 /u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/cadence525/group19_lab2
+DEFINE dic2_lab1_adder /u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/cadence525/dic2_lab1_adder
+DEFINE dic2_lab2_16bit_msff_adder /u/jamr2/ece425/FreePDK45/ncsu_basekit/cdssetup/cadence525/dic2_lab2_16bit_msff_adder
